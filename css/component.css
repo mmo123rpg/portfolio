@@ -18,11 +18,12 @@
 /* Loader */
 .grid__loader {
 	display: none;
-	margin: 3em auto 0;
+	margin: 5em auto 0;
 }
 
 .grid--loading .grid__loader {
 	display: block;
+	position:relative;
 }
 
 /* Clearfix */
@@ -70,7 +71,7 @@
 
 .slider__item {
 	width: 100%;
-	padding: 1em;
+	display:block;
 }
 
 .slider__item img {
